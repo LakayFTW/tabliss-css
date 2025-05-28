@@ -95,3 +95,11 @@
  .Weather {
   font-weight: bold;
  }
+
+ .Links a:hover {
+  transform: scale(1.2);
+ }
+ 
+ .Links svg {
+  color: #d79921;
+ }
