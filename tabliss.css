@@ -1,0 +1,97 @@
+/*
+* Inspired by Gruvbox theme
+* Colors from: https://github.com/morhetz/gruvbox?tab=readme-ov-file
+* Still work in progress, so some Elements might not be styled yet
+*/
+
+/* Settings Sidebar */
+
+.Settings .plane {
+  background-color: #282828;
+ }
+ 
+ .Settings .Widget {
+  background-color: #3c3836;
+ }
+ 
+ .Settings h2,
+ .Settings h4 {
+   color: #ebdbb2;
+ }
+ 
+ .Settings label {
+  color: #ebdbb2;
+ }
+ 
+ .Settings textarea {
+  color: #fbf1c7;;
+  background-color: #504945;
+  border: 1px solid #fe8019 !important;
+ }
+ 
+ .Settings textarea:focus-visible {
+  outline: #fb4934;
+  outline-offset: 0px;
+ }
+ 
+ .Settings select {
+  background-color: #3c383690 !important;
+  border: 1 !important;
+  border-color: rgba(60, 56, 54, 1)
+  !important;
+ }
+ 
+ .Settings .Widget p {
+  color: #ebdbb2;
+ }
+ 
+ .Settings input,
+ .Settings input[type=text] {
+  background-color: #504945;
+  color: #fbf1c7;
+ }
+ 
+ .Settings a {
+  color: #d79921 ;
+ }
+ 
+ .Settings button {
+  background-color: #d79921 !important;
+ }
+ 
+ .Settings button svg {
+  color: #282828;
+ }
+ 
+ .Settings .button--primary {
+  background-color: #076678 !important;
+ }
+ 
+ .Settings .button--icon.button--primary {
+   background-color: #d79921 !important;
+ }
+ 
+ svg,
+ .Overlay svg {
+  color: #ebdbb2;
+ }
+ 
+ /* Here Widgets */
+ 
+ .Greeting,
+ .Time,
+ .WorkHours,
+ .Weather,
+ .Links {
+  color: #ebdbb2;
+ }
+ 
+ .WorkHours::before {
+  content: "Work Progress";
+  font-size: 40px;
+  font-weight: bold;
+ }
+ 
+ .Weather {
+  font-weight: bold;
+ }
